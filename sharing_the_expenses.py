@@ -6,7 +6,7 @@ mysql_db1 = db_connector.connectDB(DATABASE_NAME)
 
 
 def sharing_the_expenses():
-    print("")
+    print("This is the new line of code")
     print("Via what media would you like to share your expenses?\n1. WhatsApp \n2. LinkedIn \n3. Gmail")
     try:
         user_input = int(input("Please enter a number to indicate: "))
